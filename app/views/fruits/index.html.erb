@@ -1,6 +1,8 @@
+<h1 class="booyah-box col-xs-10 col-xs-offset-1">Learn about the health benefits of fruits and vegetables!</h1>
+
 <% @fruits.each do |fruit| %>
   <div class="booyah-box col-xs-10 col-xs-offset-1">
-    <h1><%= fruit.name %></h1>
+    <h2><%= fruit.name %></h2>
     <p><%= fruit.fruitorveggie %></p>
     <p><%= fruit.benefits %></p>
   </div>
