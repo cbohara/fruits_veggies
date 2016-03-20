@@ -1,1 +1,9 @@
-<h1> Fruits and veggies! </h1>
+<% @fruits.each do |fruit| %>
+  <div>
+    <h1><%= fruit.name %></h1>
+    <p><%= fruit.fruitorveggie %></p>
+    <p><%= fruit.benefits %></p>
+  </div>
+
+  <hr />
+<% end %>
