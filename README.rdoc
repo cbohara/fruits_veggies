@@ -1,5 +1,13 @@
 == README
 
+Build a new web application from scratch and make sure it satisfies the following criteria:
+
+* The web application has a page with static content on it.
+* The web application is hosted on heroku
+* The code for the application is hosted up on GitHub.
+* There is a headline on the page of the application that is a non-black color.
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
