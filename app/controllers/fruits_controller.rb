@@ -4,4 +4,8 @@ class FruitsController < ApplicationController
     @fruits = Fruit.all
   end
 
+  def new
+    @fruit = Fruit.new
+  end
+
 end

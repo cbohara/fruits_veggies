@@ -1,3 +1,22 @@
+h1, h2, h3, h4, h5, h6 {
+  margin:0;
+  padding:0;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+h1 {
+  color: #0F63B8;
+}
+
+h2 {
+  color: #1C8CFC;
+}
+
+body {
+  background: url('/assets/concrete_seamless.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -8,17 +27,4 @@
   margin-top:10px;
   margin-bottom:15px;
   padding:20px;
-}
-
-body {
-  background: url('https://pixabay.com/static/uploads/photo/2016/01/16/07/38/background-1142951_960_720.jpg');
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-}
-
-h1 {
-  color: #0F63B8;
-}
-
-h2 {
-  color: #1C8CFC;
 }
